@@ -1,0 +1,61 @@
+@media only screen and (min-width: 768px) {
+    
+}
+
+
+body{
+    width: 100%;
+    position: relative;
+    background-image: url("back.jpg");
+    background-repeat:no-repeat; 
+    background-position: right top;
+  
+}
+.box{
+    width: 1400px;
+    height: 650px;
+    margin: 50px;
+    margin-left: 50px;
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(255, 255, 255) solid;
+    box-shadow: 10px 10px 15px -7px gray;
+    background-image: url("img1.png");
+     
+    
+}
+div{
+    float: right;
+    margin-top: 200px;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(226, 65, 65, 0);
+}
+form{
+    
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+input{
+    padding: 20px;
+    width: 200px;
+    border: 1px rgb(255, 255, 255) solid;
+    box-shadow:10px 10px 15px -7px gray;
+    text-align: center;  
+    border-radius:5px; 
+    font-family: "Courier New", Courier, monospace;
+    text-align: left;
+}
+button{
+    width: 180px;
+    height: 40px;
+    padding: 1px;
+    color: white;
+    background-color: red;
+    border: 1px red solid;
+    border-radius: 10px;
+    box-shadow:10px 10px 15px -7px gray;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;	
+    font-size: 20px; 
+}
